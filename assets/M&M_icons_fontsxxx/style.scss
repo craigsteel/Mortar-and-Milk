@@ -1,0 +1,144 @@
+@import "variables";
+
+@font-face {
+    font-family: 'iconmm';
+    src:    url('#{$icomoon-font-path}/iconmm.eot?96fev6');
+    src:    url('#{$icomoon-font-path}/iconmm.eot?96fev6#iefix') format('embedded-opentype'),
+        url('#{$icomoon-font-path}/iconmm.ttf?96fev6') format('truetype'),
+        url('#{$icomoon-font-path}/iconmm.woff?96fev6') format('woff'),
+        url('#{$icomoon-font-path}/iconmm.svg?96fev6#iconmm') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'iconmm' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube {
+    &:before {
+        content: $icon-youtube;
+    }
+}
+.icon-wish {
+    &:before {
+        content: $icon-wish;
+    }
+}
+.icon-user {
+    &:before {
+        content: $icon-user;
+    }
+}
+.icon-twitter {
+    &:before {
+        content: $icon-twitter;
+    }
+}
+.icon-shop {
+    &:before {
+        content: $icon-shop;
+    }
+}
+.icon-search {
+    &:before {
+        content: $icon-search;
+    }
+}
+.icon-rate {
+    &:before {
+        content: $icon-rate;
+    }
+}
+.icon-plus {
+    &:before {
+        content: $icon-plus;
+    }
+}
+.icon-play {
+    &:before {
+        content: $icon-play;
+    }
+}
+.icon-place {
+    &:before {
+        content: $icon-place;
+    }
+}
+.icon-pinterest {
+    &:before {
+        content: $icon-pinterest;
+    }
+}
+.icon-mobile {
+    &:before {
+        content: $icon-mobile;
+    }
+}
+.icon-minus {
+    &:before {
+        content: $icon-minus;
+    }
+}
+.icon-menu {
+    &:before {
+        content: $icon-menu;
+    }
+}
+.icon-instagram {
+    &:before {
+        content: $icon-instagram;
+    }
+}
+.icon-facebook {
+    &:before {
+        content: $icon-facebook;
+    }
+}
+.icon-email {
+    &:before {
+        content: $icon-email;
+    }
+}
+.icon-close {
+    &:before {
+        content: $icon-close;
+    }
+}
+.icon-cart {
+    &:before {
+        content: $icon-cart;
+    }
+}
+.icon-arrow-up {
+    &:before {
+        content: $icon-arrow-up;
+    }
+}
+.icon-arrow-right {
+    &:before {
+        content: $icon-arrow-right;
+    }
+}
+.icon-arrow-left {
+    &:before {
+        content: $icon-arrow-left;
+    }
+}
+.icon-arrow-down {
+    &:before {
+        content: $icon-arrow-down;
+    }
+}
+

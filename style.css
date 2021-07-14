@@ -1,0 +1,9 @@
+/*
+Theme Name: M+M
+Theme URI: http://www.mortarandmilk.com/
+
+Version: 1.0
+*/
+
+
+#add_payment_method #payment ul.payment_methods li img, .woocommerce-cart #payment ul.payment_methods li img, .woocommerce-checkout #payment ul.payment_methods li img { width:auto; }
